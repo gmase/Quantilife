@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/makeVisible"
+        android:orderInCategory="108"
+        android:title="@string/reviewToday"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/hideAnswered"
+        android:orderInCategory="109"
+        android:title="@string/hide_answered"
+        app:showAsAction="never" />
+    //TODO debug only
+    <item
+        android:id="@+id/reloadDB"
+        android:orderInCategory="109"
+        android:title="restart"
+        app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/piramyd_menu"-->
+    <!--android:orderInCategory="101"-->
+    <!--android:icon="@drawable/bordes"-->
+    <!--android:title="@string/menu_main"-->
+    <!--android:gravity="left"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+    <!--<item-->
+    <!--android:id="@+id/question_menu"-->
+    <!--android:orderInCategory="102"-->
+    <!--android:icon="@drawable/quesion_mark"-->
+    <!--android:title="@string/question_list"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+    <!--<item-->
+    <!--android:id="@+id/stats_menu"-->
+    <!--android:orderInCategory="103"-->
+    <!--android:icon="@drawable/ic_timeline_black_24px"-->
+    <!--android:title="@string/stats"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+</menu>

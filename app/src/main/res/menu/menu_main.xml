@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="108"
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="109"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/debugFirstTime"
+        android:orderInCategory="110"
+        android:title="FirstTimeHere"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/goToIdentify"
+        android:orderInCategory="111"
+        android:title="@string/login"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+    <!--<item-->
+    <!--android:id="@+id/piramyd_menu"-->
+    <!--android:orderInCategory="101"-->
+    <!--android:icon="@drawable/bordes"-->
+    <!--android:title="@string/menu_main"-->
+    <!--android:gravity="left"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+    <!--<item-->
+    <!--android:id="@+id/question_menu"-->
+    <!--android:orderInCategory="102"-->
+    <!--android:icon="@drawable/quesion_mark"-->
+    <!--android:title="@string/question_list"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+    <!--<item-->
+    <!--android:id="@+id/stats_menu"-->
+    <!--android:orderInCategory="103"-->
+    <!--android:icon="@drawable/ic_timeline_black_24px"-->
+    <!--android:title="@string/stats"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--/>-->
+</menu>

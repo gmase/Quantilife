@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Opciones</string>
+    <string name="agradecimientos">Emoji art supplied by EmojiOne, Hugo from http://www.littlerobots.nl/blog/Handle-Android-RecyclerView-Clicks - Material Icons - MPAndroidChart</string>
+    <string name="back">Volver</string>
+    <string name="day">Día</string>
+    <string name="ethics">Ética</string>
+    <string name="feedback">Sugiere nuevas preguntas a los desarrolladores</string>
+    <string name="health"><![CDATA[Salud & Fitness]]></string>
+    <string name="main">Principal</string>
+    <string name="no">No</string>
+    <string name="noCards">Cada día aparecerán nuevas preguntas.  Ve al menú opciones para revisar tus respuestas</string>
+    <string name="not_for_me">Esto no es para mi porque...</string>
+    <string name="other">porque no</string>
+    <string name="progress">Progreso</string>
+    <string name="question_list">Lista de preguntas</string>
+    <string name="relationships">Relaciones</string>
+    <string name="reviewToast">Ahora puedes revisar tus respuestas</string>
+    <string name="reviewToday">Revisar las respuestas del día</string>
+    <string name="said1">"Dijiste "</string>
+    <string name="said2">" en "</string>
+    <string name="said_not_for_me">no es para mí</string>
+    <string name="stats">Estadísticas</string>
+    <string name="total">Puntos</string>
+    <string name="work"><![CDATA[Trabajo & Estudio]]></string>
+    <string name="yes">Sí</string>
+    <string name="showMainTitle">Este es tu estado actual</string>
+    <string name="showMainText">En esta pantalla visualizarás la calidad de tu vida. Ahora mismo la pirámide está vacía, ve a la ventana de preguntas \'?\' y responde algunas para hacer que se llene.</string>
+    <string name="showStatsTitle">Esta es tu evolución desde el día que instalaste la app</string>
+    <string name="showStatsText">Ahora mismo no te dice mucho pero, en el futuro, te servirá para seguir tus avances.</string>
+    <string name="crash_toast_text">Hemos recibido el informe sobre su error, nos pondremos a corregirlo de inmediato</string>
+    <string name="login">Login</string>
+    <string name="login_explanation">Regístrate para asegurar que no pierdes tu progreso</string>
+    <string name="identification_success">Registrado con éxito</string>
+    <string name="identification_failed">Falló el registro</string>
+    <string name="identification_canceled">Registro cancelado. Puedes registrarte más tarde en el menú de opciones</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="alreadyLoggedIn">Ya estás registrado</string>
+</resources>

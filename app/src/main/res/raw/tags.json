@@ -1,0 +1,116 @@
+{
+  "tags_en": [
+    {
+    "id": "teenager",
+    "YesPhrase": "I'm a teenager!",
+    "NoPhrase": "Dude, I'm a grown up"
+    },
+    {
+    "id": "young",
+    "YesPhrase": "I'm a young!",
+    "NoPhrase": "I'm not a young!"
+    },
+    {
+    "id": "adult",
+    "YesPhrase": "I'm an adult!",
+    "NoPhrase": "I'm not an adult"
+    },
+    {
+    "id": "old",
+    "YesPhrase": "I'm too old for this s***",
+    "NoPhrase": "I'm too young for that"
+    },
+    {
+    "id": "single",
+    "YesPhrase": "I'm single",
+    "NoPhrase": "I'm not single"
+    },
+    {
+    "id": "married",
+    "YesPhrase": "I'm married!",
+    "NoPhrase": "I'm not married!"
+    },
+    {
+    "id": "father",
+    "YesPhrase": "I have kids",
+    "NoPhrase": "I don't have kids!"
+    },
+    {
+    "id": "employed",
+    "YesPhrase": "I work",
+    "NoPhrase": "I don't have a job"
+    },
+    {
+    "id": "student",
+    "YesPhrase": "I'm a student",
+    "NoPhrase": "I'm not a student"
+    },
+    {
+      "id": "socialNetwork",
+      "YesPhrase": "I use social networks",
+      "NoPhrase": "I don't use social networks"
+    },
+    {
+    "id": "ill",
+    "YesPhrase": "I'm ill!",
+    "NoPhrase": "I'm not ill!"
+    }
+  ],
+  "tags_es": [
+    {
+      "id": "teenager",
+      "YesPhrase": "Soy un adolescente",
+      "NoPhrase": "No soy un adolescente"
+    },
+    {
+      "id": "young",
+      "YesPhrase": "I'm a young!",
+      "NoPhrase": "I'm not a young!"
+    },
+    {
+      "id": "adult",
+      "YesPhrase": "I'm an adult!",
+      "NoPhrase": "I'm not an adult"
+    },
+    {
+      "id": "old",
+      "YesPhrase": "I'm too old for this s***",
+      "NoPhrase": "I'm too young for that"
+    },
+    {
+      "id": "single",
+      "YesPhrase": "I'm single",
+      "NoPhrase": "I'm not single"
+    },
+    {
+      "id": "married",
+      "YesPhrase": "I'm married!",
+      "NoPhrase": "I'm not married!"
+    },
+    {
+      "id": "father",
+      "YesPhrase": "I have kids",
+      "NoPhrase": "I don't have kids!"
+    },
+    {
+      "id": "employed",
+      "YesPhrase": "I work",
+      "NoPhrase": "I don't have a job"
+    },
+    {
+      "id": "student",
+      "YesPhrase": "I'm a student",
+      "NoPhrase": "I'm not a student"
+    },
+    {
+      "id": "socialNetwork",
+      "YesPhrase": "I use social networks",
+      "NoPhrase": "I don't use social networks"
+    },
+    {
+      "id": "ill",
+      "YesPhrase": "I'm ill!",
+      "NoPhrase": "I'm not ill!"
+    }
+  ]
+}

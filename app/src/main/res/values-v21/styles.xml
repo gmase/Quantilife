@@ -1,0 +1,140 @@
+<resources>
+
+    <style name="lastAnswer">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginStart">4sp</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="question">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingStart">4sp</item>
+        <item name="android:paddingEnd">4sp</item>
+        <item name="android:textColor">@color/paddingColor1</item>
+    </style>
+
+    <style name="answerButton">
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">5sp</item>
+        <item name="android:height">12sp</item>
+        <item name="android:backgroundTint">@color/grey2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:textColor">@color/greyBackground</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tagHeader" parent="@style/normalText">
+        <item name="android:paddingBottom">20sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+
+    <style name="answerOptionsButton">
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">5sp</item>
+        <item name="android:height">12sp</item>
+        <item name="android:backgroundTint">@color/grey2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="tagButton">
+        <item name="android:paddingBottom">25sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">10sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="scope">
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">10sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="score">
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">10sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="scopeIcon">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">30sp</item>
+        <item name="android:layout_height">30sp</item>
+    </style>
+
+    <style name="totalPoints">
+        <item name="android:layout_marginEnd">0sp</item>
+        <item name="android:layout_marginStart">5sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <!--parent="Theme.AppCompat.Light.DarkActionBar"-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="CustomShowcaseTheme3" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#AA101010</item>
+        <item name="sv_showcaseColor">#00888888</item>
+        <item name="sv_buttonText">Hide</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle2</item>
+        <item name="sv_detailTextAppearance">@style/CustomText2</item>
+    </style>
+
+    <style name="CustomTitle2" parent="TextAppearance.ShowcaseView.Title.Light">
+        <item name="android:textColor">#80ff80</item>
+    </style>
+
+    <style name="CustomText2" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:windowExitTransition">@transition/fade</item>
+        <!--<item name="android:actionBarSize">15sp</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay"></style>
+
+</resources>

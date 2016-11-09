@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="170sp"
+    android:background="@drawable/tarjeta"
+    android:elevation="2sp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@color/lightBlue">
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingEnd="4sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/lastAnswerYN"
+        style="@style/lastAnswer"
+        android:layout_gravity="left" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0sp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:paddingTop="0sp">
+
+            <Button
+                android:id="@+id/yesButtom"
+                style="@style/answerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/noButtom"
+                style="@style/answerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_gravity="start" />
+
+            <Button
+                android:id="@+id/optionsButtom"
+                style="@style/answerOptionsButton"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:text="+" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

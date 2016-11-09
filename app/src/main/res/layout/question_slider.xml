@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="170sp"
+    android:background="@drawable/tarjeta"
+    android:elevation="2sp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@color/lightRed">
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/lastAnswerSlider"
+        style="@style/lastAnswer"
+        android:layout_gravity="left" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:paddingBottom="2sp">
+
+        <FrameLayout
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:elevation="2sp"
+                android:gravity="end" />
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_gravity="center|top"
+                android:gravity="center|top"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8sp">
+
+            <ImageButton
+                android:id="@+id/done"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="start|center_vertical"
+                android:backgroundTint="@color/grey2"
+                android:elevation="2sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_done_black_24px" />
+
+            <Button
+                android:id="@+id/optionsButtom"
+                style="@style/answerOptionsButton"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:text="+" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

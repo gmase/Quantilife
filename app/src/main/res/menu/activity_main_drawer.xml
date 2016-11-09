@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupTotal"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_total"
+            android:title="@string/total" />
+    </group>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/work"
+            android:title="@string/work" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/health_plus"
+            android:title="@string/health" />
+        <item
+            android:id="@+id/nav_relationships"
+            android:icon="@drawable/heart"
+            android:title="@string/relationships" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_ethics"
+            android:icon="@drawable/yin"
+            android:title="@string/ethics" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/progress"
+            android:icon="@drawable/ic_timeline_black_24px"
+            android:title="@string/progress" />
+    </group>
+
+</menu>

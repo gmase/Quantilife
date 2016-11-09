@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false">Quantilife</string>
+    <string name="pref" translatable="false">"LifePreferences"</string>
+    <string name="facebook_app_id" translatable="false">1608023556166924</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="testAdd" translatable="false">Test Adding</string>
+    <string name="reviewToday">Review today\'s answers</string>
+    <string name="agradecimientos">Emoji art supplied by EmojiOne, Hugo from http://www.littlerobots.nl/blog/Handle-Android-RecyclerView-Clicks - Material Icons - MPAndroidChart</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="noCards">New questions will appear daily\nGo to settings to review your answers</string>
+    <string name="reviewToast">Now you can review any of your answers</string>
+    <string name="total">Points</string>
+    <string name="relationships">Relationships</string>
+    <string name="health"><![CDATA[Health & Fitness]]></string>
+    <string name="work"><![CDATA[Work & Study]]></string>
+    <string name="ethics"><![CDATA[Ethics & Moral]]></string>
+    <string name="progress">Progress</string>
+    <string name="day">Day</string>
+    <string name="hide_answered" translatable="false">Show unanswered questions</string>
+    <string name="hideToast" translatable="false">Showing unanswered questions only</string>
+    <string name="feedback">Suggest new questions to the developer</string>
+    <string name="stats">Stats</string>
+    <string name="question_list">Question list</string>
+    <string name="main">Main</string>
+    <string name="title_activity_test" translatable="false">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="not_for_me">This ain\'t for me because…</string>
+    <string name="said_not_for_me">not for me</string>
+    <string name="back">Back</string>
+    <string name="said1">"You said "</string>
+    <string name="said2">" on "</string>
+    <string name="other">"reasons"</string>
+    <string name="showMainTitle">This is your current status</string>
+    <string name="showMainText">This screen represent your life quality. Right now the pyramid is empty, go to questions \'?\' and answer some to fill it.</string>
+    <string name="showStatsTitle">This is your evolution since the day you installed the app</string>
+    <string name="showStatsText">At this moment this window doesn\'t say much but, in the future, you\'ll be able to track back your progress here.</string>
+    <string name="crash_toast_text">We\'ve received your error report, we\'ll fix it asap!</string>
+    <string name="login">Log In</string>
+    <string name="login_explanation">Log in to make sure you don\'t lose your progress</string>
+    <string name="identification_success">You are now logged in</string>
+    <string name="identification_failed">Logging in failed</string>
+    <string name="identification_canceled">Logging in canceled. You can log in later in the settings menu</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="alreadyLoggedIn">You\'re already logged in</string>
+</resources>

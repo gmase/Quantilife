@@ -1,0 +1,1786 @@
+{
+  "questions_en": [
+    {
+      "id": 1,
+      "question": "Test Salud",
+      "scope": "HEALTH",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 2,
+      "question": "Test Trabajo",
+      "scope": "WORK",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 3,
+      "question": "Test Etica",
+      "scope": "ETHICS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1001,
+      "question": "Did you date someone in the last month?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 1.64,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yeah!",
+          "value": 100,
+          "plusTags": ["single"],
+          "minusTags": []
+        },
+        {
+          "text": "No :(",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager","-1married"]
+    },
+    {
+      "id": 1002,
+      "question": "How much time do you spent with your family?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 1.14,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1003,
+      "question": "Do you keep in touch with old friends?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.06,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Absolutle",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager"]
+    },
+    {
+      "id": 1004,
+      "question": "Do you trust your partner?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.26,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Of course",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Well..no",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager","-1single"]
+    },
+    {
+      "id": 1005,
+      "question": "Have you been mad at a relative since long ago?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.19,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yep",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No, all fine",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1006,
+      "question": "Do you keep a destructive friend?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.22,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes, kind of",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1007,
+      "question": "Did you get away from a destructive friend in the last month?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.26,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes, finally!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1008,
+      "question": "How much do you enjoy the time spent with your current friends?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.10,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1009,
+      "question": "Did you make a new interesting friend lately?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.91,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1010,
+      "question": "Did you do something special for your partner in the last month?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.88,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1011,
+      "question": "Can you rely on your famility in case of problems?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "never",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "sometimes",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "often",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "always",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1012,
+      "question": "Do you feel too lonely at times?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.58,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yep :(",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1013,
+      "question": "Are you educating your children well?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 120.82,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Of course",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Could be better...",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1014,
+      "question": "Do you feel respected by your children?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.33,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yeah, I'm the boss",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1015,
+      "question": "How much time do you spend with your children?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.53,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "It may be a little too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1016,
+      "question": "How responsible you feel about your children's current welfare?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.98,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1017,
+      "question": "Are you providing your children with enough opportunities for a good life?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.30,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "It might not be enough",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1018,
+      "question": "How well you contribute to the happiness of your family?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.21,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "I just give trouble",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "I help a little",
+          "value": 50,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "A lot!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1married","+1father"]
+    },
+    {
+      "id": 1019,
+      "question": "How much time do you spent in social networks?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.34,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "What are those?",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": ["socialNetwork"]
+        },
+        {
+          "text": "A little",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 0,
+          "plusTags": ["socialNetwork"],
+          "minusTags": []
+        }],
+      "dependencies": ["+1socialNetwork"]
+    },
+    {
+      "id": 1020,
+      "question": "How easy could you quit an undesirable social environment?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.53,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "don't have",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "difficult",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "easy",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1021,
+      "question": "Have you recently closed a social account?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.42,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1socialNetwork"]
+    },
+    {
+      "id": 1022,
+      "question": "Did you brag about your partner in the last month?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.09,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1023,
+      "question": "Do you feel respected by your partner?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.55,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1024,
+      "question": "Do you feel appreciated by your partner?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.86,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1025,
+      "question": "Did you enjoy a nice family moment the past month?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.92,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1026,
+      "question": "How proud do your parents feel about you?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.28,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1old"]
+    },
+    {
+      "id": 1027,
+      "question": "Are you member of any local association?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.62,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1028,
+      "question": "Are you member of a gym / academy?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.77,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1029,
+      "question": "Do you attend to group activities in your community?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.95,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1030,
+      "question": "Did you visit friends last motnth?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.26,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1031,
+      "question": "Did you visit relatives last month?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.11,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    }
+  ],
+  "questions_es": [
+    {
+      "id": 1,
+      "question": "Test Salud",
+      "scope": "HEALTH",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 2,
+      "question": "Test Trabajo",
+      "scope": "WORK",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 3,
+      "question": "Test Etica",
+      "scope": "ETHICS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.49,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "cero",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "bajo",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "medio",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "alto",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1001,
+      "question": "¿Has salido con alguien en el último mes?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 1.90,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yeah!",
+          "value": 100,
+          "plusTags": ["single"],
+          "minusTags": []
+        },
+        {
+          "text": "No :(",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager","-1married"]
+    },
+    {
+      "id": 1002,
+      "question": "¿Cuánto tiempo pasas con tu familia?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 1.62,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1003,
+      "question": "¿Mantienes el contacto con tus viejos amigos?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.74,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Absolutle",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager"]
+    },
+    {
+      "id": 1004,
+      "question": "¿Confias en tu pareja?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.87,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Of course",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Well..no",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1teenager","-1single"]
+    },
+    {
+      "id": 1005,
+      "question": "¿Llevas mucho tiempo enfadado con algún familiar?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.97,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yep",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No, all fine",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1006,
+      "question": "¿Tienes algún amigo destructivo?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.46,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes, kind of",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1007,
+      "question": "¿Te has alejado de alguna mala amistad recientemente?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.83,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes, finally!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1008,
+      "question": "¿Te diviertes con los amigos con los que más tiempo pasas?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.26,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1009,
+      "question": "¿Has hecho algún amigo interesante ultimamente?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.54,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1010,
+      "question": "¿Has hecho algo especial con tu pareja recientemente?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.07,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1011,
+      "question": "¿Puedes confiar en tu familia para tus problemas?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.94,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "never",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "sometimes",
+          "value": 20,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "often",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "always",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1012,
+      "question": "¿Te sientes solo?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.39,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yep :(",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1013,
+      "question": "¿Estás educando bien a tus hijos?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 120.12,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Of course",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Could be better...",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1014,
+      "question": "¿Te sientes respetado por tus hijos?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.63,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yeah, I'm the boss",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1015,
+      "question": "¿Cuánto tiempo pasas con tus hijos?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.65,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "It may be a little too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1016,
+      "question": "¿Te sientes responsable sobre el bienestar de tus hijos?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.04,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1017,
+      "question": "¿Proporcionas a tus hijos suficientes oportunidades para que lleven una buena vida?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.03,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "It might not be enough",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1father"]
+    },
+    {
+      "id": 1018,
+      "question": "¿Cuánto contribuyes a la felicidad de tu familia?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.18,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "I just give trouble",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "I help a little",
+          "value": 50,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "A lot!",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1married","+1father"]
+    },
+    {
+      "id": 1019,
+      "question": "¿Cuánto tiempo pasas en redes sociales?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.20,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "What are those?",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": ["socialNetwork"]
+        },
+        {
+          "text": "A little",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1socialNetwork"]
+    },
+    {
+      "id": 1020,
+      "question": "¿Te es fácil alejarte de situaciones sociales indeseables?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.74,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "don't have",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "difficult",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "easy",
+          "value": 60,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1021,
+      "question": "¿Has cerrado recientemente alguna cuenta de una red social?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.26,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["+1socialNetwork"]
+    },
+    {
+      "id": 1022,
+      "question": "¿Has alardeado sobre tu pareja recientemente?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.53,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1023,
+      "question": "¿Te sientes respetado por tu pareja?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.44,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1024,
+      "question": "¿Tu pareja te quiere?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.23,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1single"]
+    },
+    {
+      "id": 1025,
+      "question": "¿Has disfrutado de un buen momento en familia últimamente?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.50,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1026,
+      "question": "¿Tus padres se siente orgullosos de ti?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "SLIDER",
+      "expDays": 2.73,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Too little",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Right time",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "Too much",
+          "value": 40,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": ["-1old"]
+    },
+    {
+      "id": 1027,
+      "question": "¿Eres miembro de alguna asociación?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.97,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1028,
+      "question": "¿Eres miembro de alguna academia?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.83,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1029,
+      "question": "¿Asistes a eventos en tu comunidad?",
+      "scope": "RELATIONSHIPS",
+      "category": "FACT",
+      "type": "YESNO",
+      "expDays": 2.18,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1030,
+      "question": "¿Has visitado algún amigo en el último mes?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.32,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    },
+    {
+      "id": 1031,
+      "question": "¿Has visitado algún pariente últimamente?",
+      "scope": "RELATIONSHIPS",
+      "category": "GOAL",
+      "type": "YESNO",
+      "expDays": 2.01,
+      "weight": 1.0,
+      "answers": [
+        {
+          "text": "Yes",
+          "value": 100,
+          "plusTags": [],
+          "minusTags": []
+        },
+        {
+          "text": "No",
+          "value": 0,
+          "plusTags": [],
+          "minusTags": []
+        }],
+      "dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#606060</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorAccent">#0f9d58</color>
+    <color name="grey2">#EEEEEE</color>
+    <color name="paddingColor1">#FFFFFF</color>
+    <color name="grey1">#DDDDDD</color>
+    <color name="shadow">#AAAAAA</color>
+    <color name="black">#000000</color>
+    <color name="black1">#808080</color>
+    <color name="greyBackground">#333333</color>
+    <color name="lightBlue">#3c8fc8</color>
+    <color name="lightRed">#ee6150</color>
+    <color name="darkRed">#aa4130</color>
+    <color name="lightYellow">#cda800</color>
+    <color name="colorGreen">#91d4ac</color>
+
+</resources>

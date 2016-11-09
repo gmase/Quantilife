@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/go_main"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:adjustViewBounds="true"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="12sp"
+        android:paddingEnd="4sp"
+        android:paddingStart="4sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bordes_blanco" />
+
+    <ImageButton
+        android:id="@+id/go_questions"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginLeft="30sp"
+        android:adjustViewBounds="true"
+        android:background="@color/colorPrimary"
+        android:elevation="12sp"
+        android:paddingEnd="4sp"
+        android:paddingStart="4sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/quesion_mark" />
+
+    <ImageButton
+        android:id="@+id/go_stats"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginLeft="30sp"
+        android:adjustViewBounds="true"
+        android:background="@color/colorPrimary"
+        android:elevation="12sp"
+        android:paddingEnd="4sp"
+        android:paddingStart="4sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_timeline_white_24px" />
+
+
+</LinearLayout>
