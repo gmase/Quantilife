@@ -126,14 +126,14 @@ class MyModeldApter(val context: Context) {
     }
 
     fun recorverUserTags() {
-        val caducidadTag = 120
+        val caducidadTag = 60
         db = context.openOrCreateDatabase("myLifeDB", Context.MODE_PRIVATE, null)
         val c = db!!.rawQuery("SELECT V.id,V.day,V.status FROM tags V INNER JOIN (SELECT id,MAX(day) As most_recent FROM tags GROUP BY id) R ON V.id = R.id AND V.day = R.most_recent;", null)
 
         if (c.count > 0) {
             c.moveToFirst()
             while (!c.isLast) {
-                //Solo recupero los tags de los ultimos 120 dias
+                //Solo recupero los tags de los ultimos 60 dias
                 if (AppDay.today() - c.getInt(1) < caducidadTag) {
                     TagDictionary.changeStatus(c.getString(0), c.getInt(1), c.getInt(2))
                 }

@@ -57,6 +57,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val button3 = findViewById(R.id.go_stats) as ImageButton
         button3.setOnClickListener { goToStats() }
 
+        val adviceL = findViewById(R.id.iVRelationshipsProgress) as ImageView
+        adviceL.setOnClickListener { showAdvice("love") }
+        val adviceW = findViewById(R.id.iVWorkProgress) as ImageView
+        adviceW.setOnClickListener { showAdvice("work") }
+        val adviceH = findViewById(R.id.iVHealthProgress) as ImageView
+        adviceH.setOnClickListener { showAdvice("health") }
+        val adviceE = findViewById(R.id.iVEthicsProgress) as ImageView
+        adviceE.setOnClickListener { showAdvice("ethics") }
+
 
         modelAdapeter = MyModeldApter(this)
 
@@ -544,7 +553,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private fun goToQuestions() {
         val intent = Intent(this, QuestionsActivity::class.java)
         startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
-
-//        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+    }
+    
+    //TODO
+    private fun showAdvice(tipo:String) {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
     }
 }

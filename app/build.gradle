@@ -8,7 +8,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:2.2.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -24,8 +24,8 @@ android {
         applicationId "com.firstry.gmase.quantilife"
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode 11
-        versionName "0.11"
+        versionCode 12
+        versionName "0.12"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

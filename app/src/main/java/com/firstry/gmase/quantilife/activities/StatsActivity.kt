@@ -148,25 +148,25 @@ class StatsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         val dataSetRed = LineDataSet(data.red, resources.getString(R.string.relationships))
         dataSetRed.color = ContextCompat.getColor(this, R.color.lightRed)
         dataSetRed.setCircleColor(ContextCompat.getColor(this, R.color.lightRed))
-        dataSetRed.circleRadius = 5f
+        dataSetRed.circleRadius = 2f
         dataSetRed.lineWidth = 2f
 
         val dataSetBlue = LineDataSet(data.blue, resources.getString(R.string.health))
         dataSetBlue.color = ContextCompat.getColor(this, R.color.lightBlue)
         dataSetBlue.setCircleColor(ContextCompat.getColor(this, R.color.lightBlue))
-        dataSetBlue.circleRadius = 5f
+        dataSetBlue.circleRadius = 2f
         dataSetBlue.lineWidth = 2f
 
         val dataSetYellow = LineDataSet(data.yellow, resources.getString(R.string.work))
         dataSetYellow.color = ContextCompat.getColor(this, R.color.lightYellow)
         dataSetYellow.setCircleColor(ContextCompat.getColor(this, R.color.lightYellow))
-        dataSetYellow.circleRadius = 5f
+        dataSetYellow.circleRadius = 2f
         dataSetYellow.lineWidth = 2f
 
         val dataSetGrey = LineDataSet(data.grey, resources.getString(R.string.ethics))
         dataSetGrey.color = ContextCompat.getColor(this, R.color.black1)
         dataSetGrey.setCircleColor(ContextCompat.getColor(this, R.color.black1))
-        dataSetGrey.circleRadius = 5f
+        dataSetGrey.circleRadius = 2f
         dataSetGrey.lineWidth = 2f
 
 
