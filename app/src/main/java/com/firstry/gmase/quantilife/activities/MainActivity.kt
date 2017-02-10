@@ -554,7 +554,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val intent = Intent(this, QuestionsActivity::class.java)
         startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
     }
-    
+
     //TODO
     private fun showAdvice(tipo:String) {
         val intent = Intent(this, MainActivity::class.java)

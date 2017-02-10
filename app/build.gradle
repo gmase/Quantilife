@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-android-extensions'
 
 buildscript {
-    ext.kotlin_version = '1.0.4'
+    ext.kotlin_version = '1.0.6'
     repositories {
         jcenter()
     }
@@ -18,7 +18,7 @@ buildscript {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "com.firstry.gmase.quantilife"
@@ -38,9 +38,7 @@ android {
         enabled = true
         //version = "2.0.0" //version 2.1.0 seems to be broken
     }
-    kapt {
-        generateStubs = true
-    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -50,6 +48,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/menu_main/kotlin'
         main { assets.srcDirs = ['src/menu_main/assets', 'src/menu_main/assets/'] }
+        main.java.srcDirs += 'src/main/kotlin'
     }
     packagingOptions {
         exclude 'META-INF/ASL2.0'
@@ -64,13 +63,12 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    kapt 'com.android.databinding:compiler:1.0-rc4'
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.android.support:support-v4:25.0.0'
-    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:design:25.1.0'
     compile 'jp.wasabeef:recyclerview-animators:2.2.3'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.0-beta1'
-    compile 'com.android.support:support-v13:25.0.0'
+    compile 'com.android.support:support-v13:25.1.0'
     // Stetho core
     compile 'com.facebook.stetho:stetho:1.4.1'
     //If you want to add a network helper

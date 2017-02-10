@@ -11,7 +11,7 @@
         android:icon="@mipmap/borde_black"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name="com.firstry.gmase.quantilife.MyApplication"
+        android:name=".MyApplication"
         android:theme="@style/AppTheme">
         <activity
             android:name="com.firstry.gmase.quantilife.activities.MainActivity"
