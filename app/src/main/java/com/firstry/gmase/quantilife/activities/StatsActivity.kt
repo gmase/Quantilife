@@ -102,7 +102,7 @@ class StatsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         chart!!.axisRight.isGranularityEnabled = true
         chart!!.xAxis.setDrawLabels(true)
         chart!!.xAxis.position = XAxis.XAxisPosition.BOTTOM
-        chart!!.animateX(100 * (numDias + 1), Easing.EasingOption.EaseInOutBack)
+        chart!!.animateX(3000, Easing.EasingOption.EaseInOutBack)
 
         chart!!.setDrawBorders(true)
         chart!!.setBorderWidth(1f)
@@ -184,14 +184,6 @@ class StatsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         chart!!.data.getDataSetByIndex(2).isHighlightEnabled = true
 
 
-//
-//        lineData = LineData(dataSetYellow)
-//        lineData.setDrawValues(false)
-//        chart!!.data = lineData
-
-//        lineData = LineData(dataSetGrey)
-//        lineData.setDrawValues(false)
-//        chart!!.data = lineData
 
         chart!!.invalidate() // refresh
 
